@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact Me - Rayyan Khan Portfolio</title>
+     <link rel="stylesheet" href="css/style.css" media="only screen and (min-width:960px)">
+     <link rel="stylesheet" href="css/tablet.css" media="only screen and (min-width: 481px) and (max-width: 960px)">
+     <link rel="stylesheet" href="css/mobile.css" media="only screen and (max-width: 480px)">
+</head>
+<body>
+    <div id="wrapper">
+        <header id="banner">
+            <h1>Contact Me</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Me</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main id="main-content">
+            <article>
+                <h2>Get in Touch</h2>
+                <p>If you have any questions or would like to discuss potential projects, feel free to reach out!</p>
+                 <form action="thankyou.html" method="post" enctype="text/plain" name="contactForm" class="contact-form">
+                    <p>
+                        <label for="name">Name:</label>
+                        <input type="text" name="name" id="name" size="40" required placeholder="Your full name">
+                    </p>
+
+                    <p>
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" id="email" size="40" required placeholder="your.email@example.com">
+                    </p>
+
+                    <p>
+                        <label for="phone">Cell Number:</label>
+                        <input type="tel" name="phone" id="phone" size="40" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="123-456-7890">
+                        <small>Format: 123-456-7890</small>
+                    </p>
+
+                    <p>
+                        <label for="comments">Comments:</label>
+                        <textarea name="comments" id="comments" cols="60" rows="6" required placeholder="Your message here..."></textarea>
+                    </p>
+
+                    <p class="form-buttons">
+                        <input type="submit" value="Send Message">
+                        <input type="reset" value="Clear Form">
+                    </p>
+                </form>
+            </article>
+        </main>
+
+        <div class="clear"></div>
+        <footer>
+            <p>&copy; 2025 Rayyan Khan. All rights reserved.</p>
+            <p>Contact: <a href="mailto:rayyan.khan1@ontariotechu.net">rayyan.khan1@ontariotechu.net</a></p>
+        </footer>
+    </div>
+</body>
+</html>
