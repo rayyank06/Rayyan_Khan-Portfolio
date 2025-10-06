@@ -1,10 +1,4 @@
 @charset "UTF-8";
-/* CSS for Full-Size (Desktop/Laptop) Screens - 960px and wider */
-
-/* Color scheme hexadecimal values: Replace these with YOUR colors from Adobe Color
-   Example: #264653 #2A9D8F #E9C46A #F4A261 #E76F51 */
-
-/* Body style applies to entire page */
 body {
     background: linear-gradient(to bottom, #264653 0%, #2A9D8F 100%);
     font-family: Arial, Helvetica, sans-serif;
@@ -13,7 +7,7 @@ body {
     color: #333;
 }
 
-/* Wrapper contains all page content - 960px standard width */
+
 #wrapper {
     width: 960px;
     min-height: 800px;
@@ -23,7 +17,7 @@ body {
     box-shadow: 0 0 20px rgba(0,0,0,0.3);
 }
 
-/* Header/Banner at top of page */
+
 #banner {
     background: linear-gradient(45deg, #264653 0%, #2A9D8F 100%);
     padding: 20px;
